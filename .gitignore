@@ -1,4 +1,2 @@
 engine-loader-env/
-engine_simulator/
-
-!engine_simulator/.gitkeep
+/engine_simulator
