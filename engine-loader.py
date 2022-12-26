@@ -16,6 +16,7 @@ def write_mods(file_name, folder_name):
         f.write("\n")
         f.write("use_default_theme()\n")
         f.write("main()\n")
+    os.startfile("engine_simulator/engine-sim-build_0_1_11a/bin/engine-sim-app.exe")
 
 for i in range(len(config.engine_name)):
     button = tk.Button(window, text=f"{config.engine_name[i]}",height=3, font=('Arial', 16), command=write_mods(config.file_name,config.folder_name))
