@@ -6,7 +6,7 @@ window = tk.Tk()
 
 window.title("engine loader")
 
-os.remove('engine_simulator/engine-sim-build_0_1_11a/assets/main.mr')
+os.remove(config.path)
 
 def write_mods(file_name, folder_name):
     with open('engine_simulator/engine-sim-build_0_1_11a/assets/main.mr', 'w') as f:
